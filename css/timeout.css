@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100%;
+}
+.top-image{
+  background-image:  url("../image/clement-fusil-Fpqx6GGXfXs-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.overlay-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60%; 
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.overlay-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%; 
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.center-image{
+  background-image: url("../image/clement-fusil-Fpqx6GGXfXs-unsplash.jpg");
+  background-size: cover;
+  margin-top: 2rem;
+  height: 55%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+P{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+.t-1{
+  font-size: 40px;
+  margin-top: 2rem;
+  text-shadow: 0 10px 4px black;
+  margin-bottom: 6rem;
+  word-spacing: 20px;
+}
+.t-2{
+  font-size: 55px;
+}
+.t-4{
+  display: grid;
+  justify-content: space-between;
+  width: 80%;
+  place-items: center;
+  row-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.t-3{
+  color: white;
+  text-shadow: 0 13px 5px black;
+}
+
